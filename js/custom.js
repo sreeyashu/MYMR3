@@ -1,8 +1,14 @@
 $( document ).ready(function() {
-    $(".yashu").focus(function() {
+    $("#inputSearchTxt").focus(function() {
   		$(this).parent().addClass('focus');
 	});
-	$(".yashu").blur(function() {
-		setTimeout(function(){ $(".yashu").parent().removeClass('focus') }, 90);
+	$("#inputSearchTxt").blur(function() {
+		setTimeout(function(){ $("#inputSearchTxt").parent().removeClass('focus') }, 90);
+	});
+	
+	$(".magnify_icon").click(function() {
+		$("#inputSearchTxt").focus(function() {
+			$(this).parent().addClass('focus');
+		});
 	});
 });

@@ -5586,7 +5586,7 @@ li[data-group="Favourites"] .main-group:after {
   top: 0;
   padding: 1.63em;
   display: none;
-  /*background: unquote($white-clr);*/
+ 
 }
 
 .search_icon {
