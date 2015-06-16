@@ -35,32 +35,41 @@
 
 /* Search */
 
-.header_search{  background-color: #303437;display:inline-block;}
-.header_search input[type="text"]{ margin:7px 0;
-  border-radius: 5px;
+.header_search{  background-color: #303437;display:inline-block; height:40px; vertical-align:top;}
+.header_search .search_input{
+	border-radius: 5px;
+	
+	
+	
+	margin-top:6px;
+	 position:relative;
+}
+.header_search .search_input.focus{padding-left:40px;padding-right:15px;background-color:#ffffff;height:26px;padding-top:5px;
+	padding-bottom:5px;}
+.header_search input[type="text"]{
+  height:30px;
   border: 0px;
   box-sizing: border-box;
   width: 35px;
   background-color: transparent;
-  color: #303030;
+ color: inherit;
   -webkit-transition: 0.4s ease;
   -moz-transition: 0.4s ease;
   -ms-transition: 0.4s ease;
   -o-transition: 0.4s ease;
   transition: 0.4s ease;
-  background-repeat: no-repeat;
-  background-position-y: -4px;
-  padding-left: 16px; position:relative; position:relative; z-index:1; line-height:25px; font-size:12px; cursor:pointer; padding-right:15px;}
+  position:relative; z-index:1;font-size:12px; cursor:pointer; text-indent:-9999px }
 
   
 .header_search input[type="text"]:focus {
-    background-color: #FFF;
-    width: 288px;
-    background-repeat: no-repeat;
-    padding-left: 40px;
+    width: 233px;height:16px; color: #303030; text-indent:initial;
 }
-.magnify_icon:before{font-family: 'bnpiconfont';content: "\e616"; color:#ffffff;position:absolute; top:12px;width: 35px;height: 26px;text-align: center;}
-.header_search input[type="text"]:focus + .magnify_icon:before{ display:block !important; position:absolute; top:14px; z-index:10; text-align:center; width:32px;border-right: 1px solid #666; color:grey; height:16px;}
+
+
+
+
+.magnify_icon:before{font-family: 'bnpiconfont';content: "\e616"; color:#ffffff;position:absolute; top:6px;width: 35px;height: 26px;text-align: center; left:0;}
+.header_search input[type="text"]:focus + .magnify_icon:before{ display:block !important; position:absolute;z-index:10; text-align:center; width:32px;border-right: 1px solid #666; color:grey; height:16px;}
 
 @media (max-width: 1023px){
 	.offcanvas_logo{ display:block;margin-top: 7px;}
