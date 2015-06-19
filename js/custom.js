@@ -11,4 +11,7 @@ $( document ).ready(function() {
 			$(this).parent().addClass('focus');
 		});
 	});
+	$(".mm_current").click(function() {
+		$(".menu_cover").toggleClass('in');
+	});
 });
