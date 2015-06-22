@@ -128,7 +128,7 @@
 .navigation_menu > ul > li.open > a{background-color:#ffffff;z-index:1001;}
 .navigation_menu > ul > li.active > a:before{content: "";border-top: 3px solid #008578;position: absolute;top: -3px;left: 0;width: 100%;}
 .menu_icon{font-size:0.75em; color:#009966; display:none;}
-
+.navigation_menu > ul > li.open .dropdown-menu{ display:block;margin-top: -1px;} 
 
 
 
@@ -138,7 +138,7 @@
 .mm_panel.dropdown-menu{ background-color:transparent; top:98%; border:none; font-size:1em; margin-top:0; }
 .mm_panel.dropdown-menu:before, .mm_panel.dropdown-menu:before{ border:none !important;}
 .mm_wrapper{ width:100%;position:relative; left:0;padding:0 1.875em; max-width:1280px; margin:0 auto;}
-.mm_view{ width:100%; background-color:#ffffff; border:1px solid #d1d1d1; display:table;}
+.mm_view{ width:100%; background-color:#ffffff; border:1px solid #d1d1d1;position:relative;}
 
 .col{float:left;}
 .col.operations{width:60%; min-width:40%;}
@@ -191,8 +191,8 @@ vertical-align:middle}
 
 
 .animated {
-  -webkit-animation-duration: .4s;
-  animation-duration: .4s;
+  -webkit-animation-duration: .6s;
+  animation-duration: .6s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
@@ -201,19 +201,19 @@ vertical-align:middle}
     0% {
         max-height: 0;
     }
-
+	
     100% {
-        max-height: 500px;
+        max-height: 800px;
     }
+	
 }
 
 @keyframes slideDown {
     0% {
         max-height: 0;
     }
-
     100% {
-        max-height: 500px;
+        max-height: 800px;
     }
 }
 
@@ -396,19 +396,15 @@ vertical-align:middle}
 
 
 .nav-up.header{ top:-40px; position:fixed; width:100%; opacity:1; left:0;}
-.nav-up .nav_header {
-  height: 50px;
-  background-color: #f7f7f7;
-}
+.nav-up .nav_header {height: 50px;background-color: #f7f7f7; border-bottom:1px solid #d1d1d1;}
 .nav-up .nav_header_inner{padding: 6px 1.875em 0 1.875em;}
-.nav-up .navigation_menu {
-  position: relative;
-  top: -5px;
-  width: auto;
-  border: 0;
-  float: left;
-}
-.nav-up .mm_panel.dropdown-menu{ position:fixed; top:49px; width:100%;}
+.nav-up .navigation_menu {position: relative;top: -6px;width: auto;border: 0;float: left;}
+.nav-up .mm_panel{ position:fixed; top:49px; width:100%;}
+
+.nav-up .site_logotype, .nav-up .brand_logo{ width:35px; height:35px;}
+.nav-up .navigation_menu > ul{ padding:0 20px;}
+.nav-up .notifications{ margin-left:0;}
+.nav-up .notifications .notification_txt{ display:none;}
 
 
 

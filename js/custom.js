@@ -11,4 +11,14 @@ $( document ).ready(function() {
 			$(this).parent().addClass('focus');
 		});
 	});
+	$('.dropdown-menu').click(function(event){
+		if($(this).hasClass('mm_view')){
+		 event.stopPropagation();
+		}
+	 });
+	 
+	 $(".mm_panel .overlay_close").click(function() {
+		 $('[data-toggle="dropdown"]').parent().removeClass('open');
+	});
+	
 });
