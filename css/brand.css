@@ -174,7 +174,7 @@ div {
 .fontcon-message:before {
 	content: "\e62f";
 }
-.fontcon-header-faq:before {
+.fontcon-faq:before {
 	content: "\e60b";
 }
 .fontcon-menu-icon:before {
@@ -1603,6 +1603,7 @@ li[data-group="Favourites"] .main-group:after {
   float: left;
   width: 162px;
   height:35px;
+  
 }
 
 .brand_logo, #brandLogo {
@@ -1640,6 +1641,7 @@ li[data-group="Favourites"] .main-group:after {
   .site_logotype {
     width: 2.62em;
     height: 2.5em;
+	margin-left:1.2em;
   }
 
   .brand_logo, #brandLogo {
@@ -12899,3 +12901,4 @@ td p {
     width: 100%;
   }
 }
+
