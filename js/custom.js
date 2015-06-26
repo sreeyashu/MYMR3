@@ -1,4 +1,7 @@
 $( document ).ready(function() {
+	var offCanvas = $('.wcm-header .header').html();
+	$('.mm_offcanvas').html(offCanvas);
+	
     $("#inputSearchTxt").focus(function() {
   		$(this).parent().addClass('focus');
 	});

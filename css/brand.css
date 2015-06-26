@@ -172,7 +172,7 @@ div {
 	content: "\e60c";
 }
 .fontcon-message:before {
-	content: "\e62f";
+	content: "\e630";
 }
 .fontcon-faq:before {
 	content: "\e60b";
@@ -277,16 +277,16 @@ div {
 	content: "\e62e";
 }
 .fontcon-facebook:before {
-	content: "\e630";
-}
-.fontcon-twitter:before {
 	content: "\e631";
 }
-.fontcon-youtube:before {
+.fontcon-twitter:before {
 	content: "\e634";
 }
-.fontcon-linkedin:before {
+.fontcon-youtube:before {
 	content: "\e666";
+}
+.fontcon-linkedin:before {
+	content: "\e62f";
 }
 .fontcon-clock:before {
 	content: "\e632";
@@ -453,6 +453,7 @@ div {
 .fontcon-lock:before {
 	content: "\e63d";
 }
+
 
 
 button {
@@ -1860,7 +1861,7 @@ li[data-group="Favourites"] .main-group:after {
   top: 3px;
 }
 
-.meta_nav_service .meta_icons_s:last-child {
+.meta_nav_service > li:last-child {
   border: none;
   padding-right: 0;
 }
@@ -2028,7 +2029,7 @@ li[data-group="Favourites"] .main-group:after {
   font-size: 1.375em;
 }
 
-.meta_icons_s {
+.meta_nav_service > li {
   display: table-cell;
   border-right: 1px dotted #d1d1d1;
   padding: 0 0.85em;
