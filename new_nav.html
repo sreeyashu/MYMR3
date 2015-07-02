@@ -30,6 +30,7 @@
                                             <!-- Header component -->
                                             <div class="wcm-header">
                                                 <div class="header">
+                                                <!-- Top header -->
                                                     <div class="top_header">
                                                         <div class="top_header_inner">
                                                             <div class="f_left">
@@ -78,23 +79,176 @@
                                                             </div>
                                                         </div>
                                                     </div>
-    <div class="nav_header">
+                                                <!-- Main navigation -->
+   													<div class="nav_header">
         <div class="nav_header_inner">
             <div class="f_left">
+            <!-- Hamburger menu will be displayed on M & S -->
             <div class="nav_small">
                 <span class="fontcon-menu-icon hamburger_icon"></span>
             </div>
+            <!-- Site logo -->
             <div class="site_logotype">
                 <a class="brand_logo" href="#"></a>
             </div>
+            <!-- Caption to be shown on unauthenticated version of header -->
             <p class="caption hide">La banque d'un monde qui change</p>
-            
+            <!-- Navigation menu -->
             <div class="navigation_menu">
+            	<!-- Each li is each link "active and mm_opened class to be added to each li based on click" -->
                 <ul>
                     <li class="active">
                         <a href="#" class="mm_current yash">
                             <span class="fontcon-arrow-right mmc_icon"></span>
                             <span>Daily banking</span>
+                        </a>
+                        <div class="mm_panel">
+                            <div class="mm_wrapper">
+                            <!-- Pimped view of Menu -->
+                            	<div class="pimp_view">
+                                	<span class="fontcon-expire pimp_icon"></span>
+                                    <div class="rich_text">
+                                    	<div class="region" id="pimpView">
+                                        	<div class="section level1">
+                                            	<p>
+                                                	<span class="highlight_text">Attention:</span> 
+                                                    the "domain" functionalities are only avalable on larger screens.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <!-- Main view on flyout menu -->
+                                <div class="mm_view">
+                                	<!-- Operations My easy banking -->
+                                    <div class="col operations">
+                                    	<!-- Shorcut buttons -->
+                                        <div class="shortcut_links">
+                                            <a href="#" class="btn_alt">
+                                                <span class="fontcon-current-account shrt_icon"></span>
+                                                <span class="fontcon-lock lock_icon"></span>
+                                                <span>My Accounts</span>
+                                            </a>
+                                            <a href="#" class="btn_alt">
+                                                <span class="fontcon-current-account shrt_icon"></span>
+                                                <span class="fontcon-lock lock_icon"></span>
+                                                <span>Money Transfers</span>
+                                            </a>
+                                        </div>
+                                        <!-- Operations title. Is clickable on M & S -->
+                                        <div class="mm_title mm_next">
+                                            <h2>My Easy banking web</h2>
+                                            <span class="fontcon-arrow-right title_icon"></span>
+                                        </div>
+                                        <div class="mm_prev_view">
+                                            <div class="mm_panel_prev">
+                                                <div class="mm_header mm_prev">
+                                                    <span class="fontcon-arrow-left title_icon"></span>
+                                                    <span>Back</span>
+                                                </div>
+                                                <div class="mm_links">
+                                                	<!-- Each block in each grop -->
+                                                    <div class="mm_block">
+                                                    	<!-- ".locked" class to be used to deactivate links -->
+                                                        <a href="#" class="mm_link_title">Transfers</a>
+                                                        <ul>
+                                                            <li><a href="#">My account</a></li>
+                                                            <li><a href="#"> My card</a></li>
+                                                            <li> <a href="#">Money Transfers</a></li>
+                                                            <li> <a href="#">Standing orders</a></li>
+                                                            <li><a href="#"> Direct debits and mandates</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="mm_block">
+                                                        <a href="#"  class="mm_link_title">Manage</a>
+                                                        <ul>
+                                                            <li><a href="#"> My account</a></li>
+                                                            <li><a href="#"> My card</a></li>
+                                                            <li> <a href="#">Money Transfers</a></li>
+                                                            <li> <a href="#">Standing orders</a></li>
+                                                            <li><a href="#"> Direct debits and mandates</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="mm_block">
+                                                      <a href="#" class="mm_link_title">Payment tools</a>
+                                                        <ul>
+                                                            <li><a href="#"> My account</a></li>
+                                                            <li><a href="#"> My card</a></li>
+                                                            <li> <a href="#">Money Transfers</a></li>
+                                                            <li> <a href="#">Standing orders</a></li>
+                                                            <li><a href="#"> Direct debits and mandates</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Requests My easy banking -->
+                                    <div class="col requests">
+                                        <div class="shortcut_links">
+                                            <a href="#" class="btn_alt">
+                                                <span class="fontcon-current-account shrt_icon"></span>
+                                                <span class="fontcon-lock lock_icon"></span>
+                                                <span>Open a new account</span>
+                                            </a>
+                                            <a href="#" class="btn_alt">
+                                                <span class="fontcon-current-account shrt_icon"></span>
+                                                <span class="fontcon-lock lock_icon"></span>
+                                                <span>My Transfers</span>
+                                            </a>
+                                        </div>
+                                        <!-- Request title. Is clickable on M & S -->
+                                        <div class="mm_title mm_next">
+                                            <h2>Discover</h2>
+                                            <span class="fontcon-arrow-right title_icon"></span>
+                                        </div>
+                                        <div class="mm_prev_view">
+                                            <div class="mm_panel_prev">
+                                                <div class="mm_header mm_prev">
+                                                    <span class="fontcon-arrow-left title_icon"></span>
+                                                    <span>Back</span>
+                                                </div>
+                                                <div class="mm_links">
+                                                    <div class="mm_block">
+                                                        <a href="#" class="mm_link_title">Accounts and cards</a>
+                                                        <ul>
+                                                            <li><a href="#"> My account</a></li>
+                                                            <li><a href="#"> My card</a></li>
+                                                            <li> <a href="#">Money Transfers</a></li>
+                                                            <li> <a href="#">Standing orders</a></li>
+                                                            <li><a href="#"> Direct debits and mandates</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="mm_block">
+                                                        <a href="#" class="mm_link_title">Useful links</a>
+                                                        <ul>
+                                                            <li><a href="#"> My account</a></li>
+                                                            <li><a href="#"> My card</a></li>
+                                                            <li> <a href="#">Money Transfers</a></li>
+                                                            <li> <a href="#">Standing orders</a></li>
+                                                            <li><a href="#"> Direct debits and mandates</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="hub_links">
+                                                	<h5 class="hub_title">Lorem lipsum</h5>
+                                                	<div class="hub_inner">
+                                                        <a href="#">Lorem ipsum dolor sit amet, consectetur</span></a>
+                                                        <a href="#">Lorem ipsum dolor sit amet, consectetur</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <span class="fontcon-close overlay_close"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="mm_current">
+                            <span class="fontcon-arrow-right mmc_icon"></span>
+                            <span>Save and Invest</span>
                         </a>
                         <div class="mm_panel">
                             <div class="mm_wrapper">
@@ -137,9 +291,287 @@
                                                 </div>
                                                 <div class="mm_links">
                                                     <div class="mm_block">
-                                                        <a href="#" class="mm_link_title locked">Transfers</a>
+                                                        <a href="#" class="mm_link_title">Transfers</a>
                                                         <ul>
-                                                            <li><a href="#" class="locked">My account</a></li>
+                                                            <li><a href="#">My account</a></li>
+                                                            <li><a href="#"> My card</a></li>
+                                                            <li> <a href="#">Money Transfers</a></li>
+                                                            <li> <a href="#">Standing orders</a></li>
+                                                            <li><a href="#"> Direct debits and mandates</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="mm_block">
+                                                        <a href="#"  class="mm_link_title">Manage</a>
+                                                        <ul>
+                                                            <li><a href="#"> My account</a></li>
+                                                            <li class=""><a href="#"> My card</a></li>
+                                                            <li class=""> <a href="#">Money Transfers</a></li>
+                                                            <li class=""> <a href="#">Standing orders</a></li>
+                                                            <li class=""><a href="#"> Direct debits and mandates</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="mm_block">
+                                                      <a href="#" class="mm_link_title">Payment tools</a>
+                                                        <ul>
+                                                            <li><a href="#"> My account</a></li>
+                                                            <li class=""><a href="#"> My card</a></li>
+                                                            <li class=""> <a href="#">Money Transfers</a></li>
+                                                            <li class=""> <a href="#">Standing orders</a></li>
+                                                            <li class=""><a href="#"> Direct debits and mandates</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col requests">
+                                        <div class="shortcut_links">
+                                            <a href="#" class="btn_alt">
+                                                <span class="fontcon-current-account shrt_icon"></span>
+                                                <span class="fontcon-lock lock_icon"></span>
+                                                <span>Open a new account</span>
+                                            </a>
+                                            <a href="#" class="btn_alt">
+                                                <span class="fontcon-current-account shrt_icon"></span>
+                                                <span class="fontcon-lock lock_icon"></span>
+                                                <span>My Transfers</span>
+                                            </a>
+                                        </div>
+                                        <div class="mm_title mm_next">
+                                            <h2>Discover</h2>
+                                            <span class="fontcon-arrow-right title_icon"></span>
+                                        </div>
+                                        <div class="mm_prev_view">
+                                            <div class="mm_panel_prev">
+                                                <div class="mm_header mm_prev">
+                                                    <span class="fontcon-arrow-left title_icon"></span>
+                                                    <span>Back</span>
+                                                </div>
+                                                <div class="mm_links">
+                                                    <div class="mm_block">
+                                                        <a href="#" class="mm_link_title">Accounts and cards</a>
+                                                        <ul>
+                                                            <li><a href="#"> My account</a></li>
+                                                            <li><a href="#"> My card</a></li>
+                                                            <li> <a href="#">Money Transfers</a></li>
+                                                            <li> <a href="#">Standing orders</a></li>
+                                                            <li><a href="#"> Direct debits and mandates</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="mm_block">
+                                                        <a href="#" class="mm_link_title">Useful links</a>
+                                                        <ul>
+                                                            <li><a href="#"> My account</a></li>
+                                                            <li><a href="#"> My card</a></li>
+                                                            <li> <a href="#">Money Transfers</a></li>
+                                                            <li> <a href="#">Standing orders</a></li>
+                                                            <li><a href="#"> Direct debits and mandates</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="hub_links">
+                                                	<h5 class="hub_title">Lorem lipsum</h5>
+                                                	<div class="hub_inner">
+                                                        <a href="#">Lorem ipsum dolor sit amet, consectetur</span></a>
+                                                        <a href="#">Lorem ipsum dolor sit amet, consectetur</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <span class="fontcon-close overlay_close"></span>
+                                </div>
+                            </div>
+                        </div> 
+                    </li>
+                    <li>
+                        <a href="#" class="mm_current">
+                             <span class="fontcon-arrow-right mmc_icon"></span>
+                             <span>Lending</span>
+                        </a>
+                        <div class="mm_panel">
+                            <div class="mm_wrapper">
+                            	<div class="pimp_view">
+                                	<span class="fontcon-expire pimp_icon"></span>
+                                    <div class="rich_text">
+                                    	<div class="region" id="pimpView">
+                                        	<div class="section level1">
+                                            	<p>
+                                                	<span class="highlight_text">Attention:</span> 
+                                                    the "domain" functionalities are only avalable on larger screens.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mm_view">
+                                    <div class="col operations">
+                                        <div class="shortcut_links">
+                                            <a href="#" class="btn_alt">
+                                                <span class="fontcon-current-account shrt_icon"></span>
+                                                <span class="fontcon-lock lock_icon"></span>
+                                                <span>My Accounts</span>
+                                            </a>
+                                            <a href="#" class="btn_alt">
+                                                <span class="fontcon-current-account shrt_icon"></span>
+                                                <span class="fontcon-lock lock_icon"></span>
+                                                <span>Money Transfers</span>
+                                            </a>
+                                        </div>
+                                        <div class="mm_title mm_next">
+                                            <h2>My Easy banking web</h2>
+                                            <span class="fontcon-arrow-right title_icon"></span>
+                                        </div>
+                                        <div class="mm_prev_view">
+                                            <div class="mm_panel_prev">
+                                                <div class="mm_header mm_prev">
+                                                    <span class="fontcon-arrow-left title_icon"></span>
+                                                    <span>Back</span>
+                                                </div>
+                                                <div class="mm_links">
+                                                    <div class="mm_block">
+                                                        <a href="#" class="mm_link_title">Transfers</a>
+                                                        <ul>
+                                                            <li><a href="#">My account</a></li>
+                                                            <li><a href="#"> My card</a></li>
+                                                            <li> <a href="#">Money Transfers</a></li>
+                                                            <li> <a href="#">Standing orders</a></li>
+                                                            <li><a href="#"> Direct debits and mandates</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="mm_block">
+                                                        <a href="#"  class="mm_link_title">Manage</a>
+                                                        <ul>
+                                                            <li><a href="#"> My account</a></li>
+                                                            <li class=""><a href="#"> My card</a></li>
+                                                            <li class=""> <a href="#">Money Transfers</a></li>
+                                                            <li class=""> <a href="#">Standing orders</a></li>
+                                                            <li class=""><a href="#"> Direct debits and mandates</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="mm_block">
+                                                      <a href="#" class="mm_link_title">Payment tools</a>
+                                                        <ul>
+                                                            <li><a href="#"> My account</a></li>
+                                                            <li class=""><a href="#"> My card</a></li>
+                                                            <li class=""> <a href="#">Money Transfers</a></li>
+                                                            <li class=""> <a href="#">Standing orders</a></li>
+                                                            <li class=""><a href="#"> Direct debits and mandates</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col requests">
+                                        <div class="shortcut_links">
+                                            <a href="#" class="btn_alt">
+                                                <span class="fontcon-current-account shrt_icon"></span>
+                                                <span class="fontcon-lock lock_icon"></span>
+                                                <span>Open a new account</span>
+                                            </a>
+                                            <a href="#" class="btn_alt">
+                                                <span class="fontcon-current-account shrt_icon"></span>
+                                                <span class="fontcon-lock lock_icon"></span>
+                                                <span>My Transfers</span>
+                                            </a>
+                                        </div>
+                                        <div class="mm_title mm_next">
+                                            <h2>Discover</h2>
+                                            <span class="fontcon-arrow-right title_icon"></span>
+                                        </div>
+                                        <div class="mm_prev_view">
+                                            <div class="mm_panel_prev">
+                                                <div class="mm_header mm_prev">
+                                                    <span class="fontcon-arrow-left title_icon"></span>
+                                                    <span>Back</span>
+                                                </div>
+                                                <div class="mm_links">
+                                                    <div class="mm_block">
+                                                        <a href="#" class="mm_link_title">Accounts and cards</a>
+                                                        <ul>
+                                                            <li><a href="#"> My account</a></li>
+                                                            <li><a href="#"> My card</a></li>
+                                                            <li> <a href="#">Money Transfers</a></li>
+                                                            <li> <a href="#">Standing orders</a></li>
+                                                            <li><a href="#"> Direct debits and mandates</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="mm_block">
+                                                        <a href="#" class="mm_link_title">Useful links</a>
+                                                        <ul>
+                                                            <li><a href="#"> My account</a></li>
+                                                            <li><a href="#"> My card</a></li>
+                                                            <li> <a href="#">Money Transfers</a></li>
+                                                            <li> <a href="#">Standing orders</a></li>
+                                                            <li><a href="#"> Direct debits and mandates</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="hub_links">
+                                                	<h5 class="hub_title">Lorem lipsum</h5>
+                                                	<div class="hub_inner">
+                                                        <a href="#">Lorem ipsum dolor sit amet, consectetur</span></a>
+                                                        <a href="#">Lorem ipsum dolor sit amet, consectetur</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <span class="fontcon-close overlay_close"></span>
+                                </div>
+                            </div>
+                        </div> 
+                    </li>
+                    <li>
+                        <a href="#" class="mm_current">
+                         	<span class="fontcon-arrow-right mmc_icon"></span>
+                            <span>Insuring</span>
+                        </a>
+                        <div class="mm_panel">
+                            <div class="mm_wrapper">
+                            	<div class="pimp_view">
+                                	<span class="fontcon-expire pimp_icon"></span>
+                                    <div class="rich_text">
+                                    	<div class="region" id="pimpView">
+                                        	<div class="section level1">
+                                            	<p>
+                                                	<span class="highlight_text">Attention:</span> 
+                                                    the "domain" functionalities are only avalable on larger screens.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mm_view">
+                                    <div class="col operations">
+                                        <div class="shortcut_links">
+                                            <a href="#" class="btn_alt">
+                                                <span class="fontcon-current-account shrt_icon"></span>
+                                                <span class="fontcon-lock lock_icon"></span>
+                                                <span>My Accounts</span>
+                                            </a>
+                                            <a href="#" class="btn_alt">
+                                                <span class="fontcon-current-account shrt_icon"></span>
+                                                <span class="fontcon-lock lock_icon"></span>
+                                                <span>Money Transfers</span>
+                                            </a>
+                                        </div>
+                                        <div class="mm_title mm_next">
+                                            <h2>My Easy banking web</h2>
+                                            <span class="fontcon-arrow-right title_icon"></span>
+                                        </div>
+                                        <div class="mm_prev_view">
+                                            <div class="mm_panel_prev">
+                                                <div class="mm_header mm_prev">
+                                                    <span class="fontcon-arrow-left title_icon"></span>
+                                                    <span>Back</span>
+                                                </div>
+                                                <div class="mm_links">
+                                                    <div class="mm_block">
+                                                        <a href="#" class="mm_link_title">Transfers</a>
+                                                        <ul>
+                                                            <li><a href="#">My account</a></li>
                                                             <li><a href="#"> My card</a></li>
                                                             <li> <a href="#">Money Transfers</a></li>
                                                             <li> <a href="#">Standing orders</a></li>
@@ -230,29 +662,11 @@
                             </div>
                         </div>
                     </li>
-                    <li>
-                        <a href="#" class="mm_current">
-                            <span class="fontcon-arrow-right mmc_icon"></span>
-                            <span>Save and Invest</span>
-                        </a>
-                         
-                    </li>
-                    <li>
-                        <a href="#" class="mm_current">
-                             <span class="fontcon-arrow-right mmc_icon"></span>
-                             <span>Lending</span>
-                        </a>
-                         
-                    </li>
-                    <li>
-                        <a href="#" class="mm_current">
-                         	<span class="fontcon-arrow-right mmc_icon"></span>
-                            <span>Insuring</span>
-                        </a>
-                    </li>
                 </ul>
             </div>
+            
             <ul class="notifications">
+            	<!-- Notifications part -->
                 <li>
                     <a href="#" id="notificationIndicator" data-toggle="dropdown">
                         <span>
@@ -282,6 +696,7 @@
                         </div>
                 </li>
                 <li>
+                	<!-- Messages URL link -->
                     <a href="#">
                         <span>
                             <span class="fontcon-message icon_notification"></span>
@@ -293,6 +708,7 @@
             </ul>
         </div>
         <div class="f_right">
+        	<!-- User personalization management -->
             <div class="user_nav">
                 <div class="meta_user">
                     <a href="#" data-toggle="dropdown" class="mm_next lnk_primary lnk_custom">Yashwanth Gurrapu</a>
@@ -307,15 +723,17 @@
                         </ul>
                     </div>
                 </div>
+                <!-- Service nav and disconnect -->
                 <ul class="service_nav">
                     <li><a href="#" class=" fontcon-faq meta_icon"></a></li>
                     <li><a href="#" class=" fontcon-logout meta_icon"></a></li>
                 </ul>
             </div>
+            <!-- Meta nav for unauthenticated part, should also be rendered in authenticated header -->
              <div class="meta_nav" style="display:none;">
                 <a href="#" class="nav_faq"><span class="fontcon-faq header-faq"></span></a>
                 <a href="#" class="lnk_primary lnk_custom bac">Become a client</a>
-                <a href="#" class="btn_alt btn_seg"> </a></li>
+                <a href="#" class="btn_alt btn_seg">Login</a></li>
                 <a href="#" class="lnk_primary lnk_custom user_seg">Individual - en</a></li>
                 <a href="#" class="lnk_primary lnk_custom user_seg">Other sites</a></li>
             </div>
