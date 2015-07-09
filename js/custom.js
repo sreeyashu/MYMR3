@@ -10,20 +10,20 @@ $( document ).ready(function() {
 		$('.mm_cover').fadeToggle(600);
 	});
 	
-    $("#inputSearchTxt").focus(function() {
-  		$(this).parent().addClass('focus');
+    $(".magnify_icon").click(function() {
+  		$(this).parent().toggleClass('focus');
 	});
-	$("#inputSearchTxt").blur(function() {
-		setTimeout(function(){ $("#inputSearchTxt").parent().removeClass('focus') }, 90);
-	});
+	//$(".magnify_icon").blur(function() {
+//		setTimeout(function(){ $(".magnify_icon").parent().removeClass('focus') }, 90);
+//	});
 	
 	
 	
-	$(".magnify_icon").click(function() {
-		$("#inputSearchTxt").focus(function() {
-			$(this).parent().addClass('focus');
-		});
-	});
+	//$(".magnify_icon").click(function() {
+//		$("#inputSearchTxt").focus(function() {
+//			$(this).parent().addClass('focus');
+//		});
+//	});
 	//$('html').click(function(event){
 //		if($(this).hasClass('mm_view')){
 //		 event.stopPropagation();
