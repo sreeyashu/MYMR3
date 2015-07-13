@@ -20,7 +20,7 @@
                     <div class="mm_offcanvas"> 
                     </div>
                 </div>
-                <div class="canvas_container">
+                <div class="canvas_container" >
                     <div class="ls-row eb-header">
                         <div class="ls-lqr">
                             <div class="ls-area">
@@ -667,43 +667,63 @@
                     </li>
                 </ul>
             </div>
-            
+            <div class="extra dropdown">
+                  <a href="#" class=" functional-globe" data-toggle="dropdown">
+                        <span class="icon_notification fontcon-extra"></span>
+                  </a>
+                    
+                        <ul class="dropdown-menu animated fadeInDown">
+                            <li>
+                                <a href="#" id="zoomitNotification">
+                                    <span class="fontcon-zoomit icon_notification"></span>
+                                    <span>You have new Zoomit notifications</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" id="msmcNotification">
+                                    <span class="fontcon-msmc icon_notification"></span>
+                                    <span>You have new MSMC notifications</span>
+                                </a>
+                            </li>
+                            <li class="no_notification">
+                                <p>You have new MSMC notifications</p>
+                            </li>
+                        </ul>
+                </div>
             <ul class="notifications">
                 <!-- Notifications part -->
                 <li>
-                    <a href="#" id="notificationIndicator" data-toggle="dropdown">
-                        <span>
-                            <span class="fontcon-globe icon_notification"></span>
-                            <span class="fontcon-information-active alert_icon"></span>
+                  <a href="#" class="functional-globe" data-toggle="dropdown">
+                    	<span>
+                        	<span class="icon_notification fontcon-globe"></span>
                         </span>
                         <span class="notification_txt">Notifications</span>
-                     </a>
-                        <div class="notification_cont">
-                            <ul class="dropdown-menu animated fadeInDown">
-                                <li>
-                                    <a href="#" id="zoomitNotification">
-                                        <span class="fontcon-zoomit icon_notification"></span>
-                                        <span>You have new Zoomit notifications</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" id="msmcNotification">
-                                        <span class="fontcon-msmc icon_notification"></span>
-                                        <span>You have new MSMC notifications</span>
-                                    </a>
-                                </li>
-                                <li class="no_notification">
-                                    <p>You have new MSMC notifications</p>
-                                </li>
-                            </ul>
-                        </div>
+                    </a>
+                    <div class="notification_cont">
+                        <ul class="dropdown-menu animated fadeInDown">
+                            <li>
+                                <a href="#" id="zoomitNotification">
+                                    <span class="fontcon-zoomit icon_notification"></span>
+                                    <span>You have new Zoomit notifications</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" id="msmcNotification">
+                                    <span class="fontcon-msmc icon_notification"></span>
+                                    <span>You have new MSMC notifications</span>
+                                </a>
+                            </li>
+                            <li class="no_notification">
+                                <p>You have new MSMC notifications</p>
+                            </li>
+                        </ul>
+                    </div>
                 </li>
                 <li>
                     <!-- Messages URL link -->
-                    <a href="#!">
+                    <a href="#!" class="functional-message">
                         <span>
-                            <span class="fontcon-message icon_notification"></span>
-                            <span class="msg_count">99</span>
+                            <span class="icon_notification fontcon-message"></span>
                         </span>
                         <span class="notification_txt">Messages</span>
                     </a>
@@ -712,7 +732,7 @@
         </div>
         <div class="f_right">
             <!-- User personalization management -->
-            <div class="user_nav">
+            <div class="user_nav"  style="display:none;">
                 <div class="meta_user">
                     <a href="#" data-toggle="dropdown" class="mm_next lnk_primary lnk_custom">Yashwanth Gurrapu</a>
                      <div class="mm_prev_view">
@@ -728,13 +748,14 @@
                 </div>
                 <!-- Service nav and disconnect -->
                 <ul class="service_nav">
-                    <li><a href="#" class=" fontcon-faq meta_icon"></a></li>
-                    <li><a href="#" class=" fontcon-logout meta_icon"></a></li>
+                    <li><a href="#" class="navFaq fontcon-faq meta_icon"></a></li>
+                    <li><a href="#" class="logout fontcon-logout meta_icon"></a></li>
                 </ul>
             </div>
             <!-- Meta nav for unauthenticated part, should also be rendered in authenticated header -->
-             <div class="meta_nav" style="display:none;">
-                <a href="#" class="nav_faq"><span class="fontcon-faq header-faq"></span></a>
+             <div class="meta_nav">
+                <a href="#" class="navFaq nav_faq"></a>
+                <a href="#" class="nav_faq"></a>
                 <a href="#" class="lnk_primary lnk_custom bac">Become a client</a>
                 <a href="#" class="btn_alt btn_seg">Login</a></li>
                 <a href="#" class="lnk_primary lnk_custom user_seg">Individual - en</a></li>

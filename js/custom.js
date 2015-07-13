@@ -1,8 +1,32 @@
 
-
+var offcanvas;
 $( document ).ready(function() {
-	var offCanvas = $('.wcm-header .header').html();
+	
+	
+	offCanvas = $('.wcm-header .header').html();
 	$('.mm_offcanvas').html(offCanvas);
+	
+	$(".hamburger_icon").click(function() {
+		$('html').addClass('mm_slideout');
+		$('.cover').show();
+		
+		
+	});
+	$(".cover").click(function() {
+		$('html').removeClass('mm_slideout');
+		$('.cover').hide();
+	});
+	
+	$(".mm_next").click(function() {
+		$('.mm_prev_view').addClass('mm_opened');
+		$('.mm_offcanvas').addClass('mm_subopened');
+	});
+	$(".mm_prev").click(function() {
+		$('.mm_prev_view').removeClass('mm_opened');
+		$('.mm_offcanvas').removeClass('mm_subopened');
+	});
+	
+	
 	
 	$(".mm_current").click(function() {
 		var mmcover = $(this).parent()
