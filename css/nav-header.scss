@@ -102,4 +102,23 @@
 	font-size:0.875em;
 	margin-top: 0.2857em;
 }
+// 1023
+@media (max-width: 1023px){
+	.notifications{ margin-left:1.25em;}
+}
+
+// 767
+@media (max-width: 767px){
+	.nav_header_inner{ 
+		padding:0.75em 0.625em;
+	}
+	.notifications{ 
+		.notification_txt{ 
+			display:none;
+		}
+		> li.open .notification_cont:after{ 
+			display:block;
+		}
+	}
+}
  
