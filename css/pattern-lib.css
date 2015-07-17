@@ -49,12 +49,14 @@
 	.search_input.focus{ width:16em;}
 }
 
-.caption{float: left;padding: 0.5em 0;margin-left: 2.8em;font-size: 1.25em;}
+/****************** Done *********************/
+
+
 
 /* Nav menu */
 .nav_header{ background:#ffffff;width:100%; height:3.75em; position:relative;}
 .nav_header_inner{display:table;width:100%;max-width:80em;margin:0 auto;padding:0.75em 1.875em;}
-
+.caption{float: left;padding: 0.5em 0;margin-left: 2.8em;font-size: 1.25em;}
 /* Notification */
 .notifications{ float:left;position:relative; margin-left:3.5em; margin-top:0.375em;transition:all 0.4s ease-in-out 0s;-webkit-transition:all 0.4s ease-in-out 0s;-moz-transition:all 0.4s ease-in-out 0s;}
 .notifications > li{ display:table-cell; border-left:1px dotted #cccccc; padding:0.125em 0.9375em;}
@@ -132,7 +134,7 @@
 
 
 .shortcut_links{border-collapse: separate;border-spacing: 15px;padding-top: 2.5em;padding-left: 0.3125em;}
-.mm_view .col:nth-child(2) .shortcut_links{border-left:1px dotted #d1d1d1;}
+.mm_view .column:nth-child(2) .shortcut_links{border-left:1px dotted #d1d1d1;}
 .btn_alt{border-radius:2px;background-color:#009966;/*#75af27*/ font-family:'regular', arial; height:2.26666em; color:#ffffff; font-size:0.9375em; cursor:pointer; padding:0 0.75em;  display: table-cell;vertical-align: middle; border:0; -webkit-transition-duration: 0.4s;transition-duration: 0.4s;-webkit-transition-property: color, background-color;transition-property: color, background-color; line-height:2}
 .btn_alt:hover{background-color:#008578;}
 .btn_alt.locked{ background-color:#bec6d0; color:#242529;}
