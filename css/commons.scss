@@ -30,9 +30,17 @@
 		top:3.0625em; 
 		width:100%;
 	}
-	.site_logotype, .brand_logo{
+	.site_logotype{
 		width:2.1875em; 
 		height:2.1875em;
+		@media (max-width: 1023px){
+			width:162px;
+			height:35px;
+		}
+		@media (max-width: 767px){
+			width:35px;
+			height:35px;
+		}
 	}
 	.notifications{ 
 		margin-left:0;
@@ -50,5 +58,26 @@
 			top:0;
 		}
 		.nav_header{height:3.75em;}
+	}
+}
+
+// Small menu
+.nav_small{ 
+	display:none;
+	@media (max-width: 1023px){
+		display:block;
+	}
+}
+.hamburger_icon{ 
+	position:absolute; 
+	left:0; 
+	font-size:2.1875em; 
+	top:0.3429em; 
+	z-index:22; 
+	width:5.4286em; 
+	height:1em; 
+	cursor:pointer;
+	@media (max-width: 767px){
+		width:1.8572em;
 	}
 }
