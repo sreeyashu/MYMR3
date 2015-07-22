@@ -3,8 +3,8 @@ var offcanvas;
 $( document ).ready(function() {
 	var prevCurrent = null;
 	
-	//offCanvas = $('.wcm-header .header').html();
-//$('.mm_offcanvas').html(offCanvas);
+	offCanvas = $('.wcm-header .header').html();
+$('.mm_offcanvas').html(offCanvas);
 //	
 //	$(".hamburger_icon").click(function() {
 //		$('html').addClass('mm_slideout');
