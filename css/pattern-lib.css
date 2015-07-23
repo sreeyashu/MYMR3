@@ -177,7 +177,7 @@
 .mm_title{ padding:0.625em 0 0 1.25em; line-height:1; position:absolute;top:0.5em;}
 .mm_title > h2{ font-size:1.5em; text-transform:uppercase; color:#464646; font-family:'regular', arial; display:inline-block; 
 vertical-align:middle}
-.title_icon{background-color:#353535;font-size:0.625em; border-radius:15px; padding: 0.6em 0.8em 0.6em 0.9em;color:rgba(255, 255, 255, 0.4); display:none; float:right; margin-right:1.5em; margin-top:0.8em;}/*Done*/
+.title_icon{ display:none;}/*Done*/
 
 
 /*Done**/
@@ -190,8 +190,8 @@ vertical-align:middle}
 .mm_block a:hover{ background-color:#009966; color:#ffffff;}
 .mm_block a.locked:before{ font-family:'bnpiconfont'; content:"\e63d"; color:#B7B7B7; font-size: 0.8425em;margin-right:0.3572em;}
 .mm_block a.locked:hover{ background-color:#ebebeb; color:#252429;}
-.mm_header{padding:0.625em 0 0.625em 1.25em; line-height:2.45;cursor:pointer; background-color:#535353; color:#ffffff; display:none;}
-.mm_header .title_icon{ padding:0.6em 0.9em 0.6em 0.8em; float:left;}/*Done*/
+.mm_header{display:none;}
+/*Done*/
 
 /*Done**/
 .hub_links{ border-top:1px solid #d1d1d1; padding:1.25em 0 0.9375em 0; display:table;margin-top:1.25em; margin-left:1.25em; width:27.75em;}
@@ -298,7 +298,7 @@ vertical-align:middle}
 
 .mm_offcanvas .mm_title{ position:relative;top:0; background-color:#404040;padding:0.625em 0 0.625em 1.25em; line-height:2.45;  border-bottom: 1px solid #303030; border-left:8px solid #303030; cursor:pointer;}
 .mm_offcanvas .mm_title > h2{ font-size:1em; color:#ffffff; text-transform:none; font-family:'light';}
-.mm_offcanvas .title_icon{ display:inline-block;}
+.mm_offcanvas .title_icon{ display:inline-block;background-color:#353535;font-size:0.625em; border-radius:15px; padding: 0.6em 0.8em 0.6em 0.9em;color:rgba(255, 255, 255, 0.4); float:right; margin-right:1.5em; margin-top:0.8em;}
 
 
 
@@ -321,7 +321,8 @@ box-shadow: -3px 0px 5px -1px rgba(0,0,0,0.2);
 
 .mm_offcanvas .mm_block{ width:100% !important; padding-left:0; font-size:1em;}
 .mm_offcanvas .mm_block .mm_link_title{ margin-bottom:0; background-color:#404040; font-size:1em;  border-bottom:1px solid rgba(48, 48, 48, 1);}
-.mm_offcanvas .mm_header{ display:block;padding-left: 10px;}
+.mm_offcanvas .mm_header{ display:block;padding:0.625em 0 0.625em 0.625em; line-height:2.45;cursor:pointer; background-color:#535353; color:#ffffff; }
+.mm_offcanvas .mm_header .title_icon{ padding:0.6em 0.9em 0.6em 0.8em; float:left;}
 .mm_offcanvas .mm_block a{ background-color:#353535; color:#ffffff; line-height:2.45em; padding:10px; border-bottom:1px solid rgba(48, 48, 48, 1)}
 .mm_offcanvas .mm_block a:hover{ background-color:#353535;}
 .mm_offcanvas .mm_block a.locked:hover{ background-color:#ebebeb; color:#ffffff;}
