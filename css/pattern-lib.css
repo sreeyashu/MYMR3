@@ -286,6 +286,7 @@ vertical-align:middle}
 
 .mm_offcanvas .navigation_menu > ul > li > .mm_panel{ position:relative;}
 .mm_offcanvas .navigation_menu > ul > li > .mm_panel > .mm_wrapper{ padding:0; margin-top:0 !important;}
+.navigation_menu > ul > li.mm_opened > .mm_panel >.mm_wrapper{max-height:400px; z-index:inherit;}
 .mm_offcanvas .mm_view{ border:none;}
 .mm_offcanvas .column{ width:100% !important;}
 .mm_offcanvas .column.requests .shortcut_links{ display:none;}
